@@ -5,5 +5,5 @@ This repository will have the Code I used for analysis of climate change for Ind
 ## About The Data
 
 3D data (time,lat,long)
-i will use Xarray to handle it 
+I will use Xarray to handle it 
 
