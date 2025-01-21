@@ -21,3 +21,9 @@ clipped_data = data.rio.clip(india_boundary.geometry, india_boundary.crs, drop=T
 
 # Display summary of the clipped data
 print(clipped_data)
+
+
+
+# to then plot this data
+
+plot data = np.nan_to_num(clipped_data, nan=0) 
